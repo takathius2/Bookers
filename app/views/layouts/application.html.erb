@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <link rel="stylesheet" media="all" href="/assets/application-d12397c….css" data-turbolinks-track="reload">
-   <script src="/assets/application-114264d….js" data-turbolinks-track="reload"></script>
-   <title>WebCampBackendNew</title>
-   <meta name="csrf-token" content="SmIeewqqeqvu9wGG2IJHpOkMdherCEqSZaYktfaOVrnZWCg3F8tQPVDPtySgZVurwpPuCP0Afs3xLONM/2LyFA==">
+    <title>Bookers</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="https://fonts.googleapis.com/css?family=sans-serif" rel="stylesheet">
   </head>
 
   <body>
-    <header>
-      <h1 class="headline"></h1>
-    </header>
-    
-    
     <%= yield %>
   </body>
 </html>
